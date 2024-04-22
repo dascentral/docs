@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "irongeek.vscode-env",
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint",
+    "wix.vscode-import-cost"
+  ]
+}
