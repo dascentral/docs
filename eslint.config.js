@@ -1,13 +1,13 @@
 // Plugins
 // import jest from "eslint-plugin-jest";
-import prettier from "eslint-plugin-prettier";
-import react from "eslint-plugin-react";
+// import prettier from "eslint-plugin-prettier";
+const react = require('eslint-plugin-react');
 
 // Configs
-import prettierConfig from "eslint-config-prettier";
-import reactConfig from "eslint-plugin-react/configs/recommended";
+// import prettierConfig from "eslint-config-prettier";
+const reactConfig = require("eslint-plugin-react/configs/recommended");
 
-export default [
+module.exports = [
   {
     files: ['**/*.{js,jsx,mjs,cjs,ts,tsx}'],
     ignores: [
@@ -15,15 +15,15 @@ export default [
       'public/',
     ],
     plugins: {
-      jest,
-      prettier,
+      // jest,
+      // prettier,
       react,
     },
-    prettierConfig,
+    // prettierConfig,
     reactConfig,
-    rules: {
-      'indent': ['error', 2],
-      'prettier/prettier': ['error', {}, { usePrettierrc: true }],
-    },
+    // rules: {
+    //   'indent': ['error', 2],
+    //   'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+    // },
   }
 ];
