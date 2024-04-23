@@ -9,7 +9,7 @@ import reactConfig from "eslint-plugin-react/configs/recommended";
 
 module.exports = [
   {
-    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx}'],
+    files: ['**/*.{cjs,js,jsx,mjs,ts,tsx}'],
     ignores: [
       '.next',
       'public/',
