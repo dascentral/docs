@@ -1,5 +1,3 @@
-// @ts-check
-
 import eslint from '@eslint/js';
 // import prettierConfig from "eslint-config-prettier";
 import deprecationPlugin from 'eslint-plugin-deprecation';
