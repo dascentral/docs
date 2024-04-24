@@ -1,5 +1,5 @@
 export default {
-  logo: <span>My Nextra Documentation</span>,
+  logo: `<span>DAS</span>`,
   project: {
     link: 'https://github.com/dascentral/docs',
   },
