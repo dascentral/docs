@@ -6,8 +6,8 @@
     "start": "next start",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint . --fix'",
-    "lint:check": "eslint .'"
+    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx,mdx}'",
+    "lint:check": "eslint '**/*.{js,jsx,ts,tsx,mdx}'"
   },
   "devDependencies": {
     "@eslint/js": "^9.1.1",
