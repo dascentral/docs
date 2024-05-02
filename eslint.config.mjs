@@ -13,11 +13,7 @@ export default tseslint.config(
     files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   },
   {
-    ignores: [
-      '.next',
-      '.pnp.*',
-      'public/',
-    ],
+    ignores: ['.next', '.pnp.*', 'public/'],
   },
   {
     plugins: {
