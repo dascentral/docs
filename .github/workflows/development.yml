@@ -9,6 +9,10 @@ on:
 jobs:
   prettier:
     uses: dascentral/reusable-workflows/.github/workflows/prettier.yml@main
+    with:
+      node-version: '20.12.2'
 
   eslint:
     uses: dascentral/reusable-workflows/.github/workflows/eslint.yml@main
+    with:
+      node-version: '20.12.2'
