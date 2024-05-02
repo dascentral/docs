@@ -1,18 +1,5 @@
 {
   "root": true,
-  "parser": "@typescript-eslint/parser",
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
-  "plugins": ["@typescript-eslint", "react", "react-hooks", "jest", "jsx-a11y"],
-  "overrides": [
-    {
-      "files": ["*.mdx"],
-      "extends": "plugin:mdx/recommended"
-    }
-  ],
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -21,6 +8,22 @@
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
+  "overrides": [
+    {
+      "files": ["*.mdx"],
+      "extends": "plugin:mdx/recommended",
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "jest", "jsx-a11y"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
   }
