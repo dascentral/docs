@@ -2,8 +2,8 @@
   "root": true,
   "extends": [
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/eslint-recommended",
     "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:mdx/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended"
