@@ -1,0 +1,9 @@
+{
+  "index": "Introduction",
+  "laravel-first-party": "Features",
+  "laravel-packages": "Packages",
+  "laravel-design-patterns": "Design Patterns",
+  "laravel-style-guide": "Style Guide",
+  "laravel-extensions": "Extending Laravel",
+  "laravel-pint": "Laravel Pint"
+}

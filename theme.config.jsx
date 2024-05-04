@@ -1,5 +1,5 @@
 const themeConfig = {
-  logo: `<span>DAS</span>`,
+  logo: 'DAS',
   project: {
     link: 'https://github.com/dascentral/docs',
   },

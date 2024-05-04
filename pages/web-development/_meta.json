@@ -1,0 +1,9 @@
+{
+  "next-js": "Next.js",
+  "php": "PHP",
+  "tailwind-css": "Tailwind CSS",
+  "vue-js": "Vue.js",
+  "flexbox": {
+    "display": "hidden"
+  }
+}
