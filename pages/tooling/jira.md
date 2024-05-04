@@ -1,6 +1,4 @@
-# JIRA
-
-## Overview
+# Jira
 
 Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management. The product name is a truncation of Gojira, the Japanese word for Godzilla, which is a reference to a competitor, Bugzilla. [Wikipedia](https://en.wikipedia.org/wiki/Jira_(software))
 

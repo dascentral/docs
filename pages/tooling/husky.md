@@ -1,7 +1,5 @@
 # Husky
 
-## Overview
-
 [https://github.com/typicode/husky#readme](https://github.com/typicode/husky#readme)
 
 > Husky can prevent bad `git commit`, `git push` and more 🐶 woof!

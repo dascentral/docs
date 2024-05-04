@@ -1,7 +1,5 @@
 # Vue.js
 
-## Introduction
-
 [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
 
 ## Enablement

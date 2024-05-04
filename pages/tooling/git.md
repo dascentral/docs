@@ -1,7 +1,5 @@
 # Git
 
-## Introduction
-
 [Git](https://git-scm.com) is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
 ## Repository Management
@@ -9,14 +7,14 @@
 ### Git global setup
 
 ```
-git config --global user.name "Douglas Smith"
-git config --global user.email "smithda@gmail.com"
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
 ```
 
 ### Create a new repository
 
 ```
-git clone git@gitlab.com:dascentral/REPO.git
+git clone git@github.com:ACCOUNT/REPO.git
 cd REPO
 git switch -c main
 touch README.md
@@ -30,7 +28,7 @@ git push -u origin main
 ```
 cd existing_folder
 git init --initial-branch=main
-git remote add origin git@gitlab.com:dascentral/REPO.git
+git remote add origin git@github.com:ACCOUNT/REPO.git
 git add .
 git commit -m "Initial commit"
 git push -u origin main
@@ -41,7 +39,7 @@ git push -u origin main
 ```
 cd existing_repo
 git remote rename origin old-origin
-git remote add origin git@gitlab.com:dascentral/REPO.git
+git remote add origin git@github.com:ACCOUNT/REPO.git
 git push -u origin --all
 git push -u origin --tags
 ```

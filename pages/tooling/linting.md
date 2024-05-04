@@ -1,7 +1,5 @@
 # Linting
 
-## Introduction
-
 > The ratio of time spent reading (code) versus writing is well over 10 to 1... (therefore) making it easy to read makes it easier to write.
 > 
 > -Bob Martin, Clean Code

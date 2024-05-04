@@ -1,9 +1,6 @@
 # GitHub
 
-## Introduction
-
-[Vue.js](https://vuejs.org/) - The Progressive
-JavaScript Framework
+[Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
 
 ## Actions
 
