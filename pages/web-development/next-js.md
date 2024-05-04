@@ -1,6 +1,6 @@
 # Next.js
 
-## Deploying Applications to Ubuntu
+## Deploying to Ubuntu
 
 Information below came from a well written and simple article by the folks at Will & Skill Developers: [Setup a Next.js project with PM2, Nginx and Yarn on Ubuntu 18.04](https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/).
 
