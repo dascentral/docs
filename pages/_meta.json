@@ -1,6 +1,7 @@
 {
   "index": "Welcome",
   "laravel": "Laravel",
+  "laravel-packages": "Laravel Packages",
   "web-development": "Web Development",
   "tooling": "Tooling",
   "infrastructure": "Infrastructure",
